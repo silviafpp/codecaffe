@@ -1,26 +1,50 @@
 body {
     background-color:#1c1d21;
+    background-size: cover;
+    background-position: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    height: 100vh;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-right: 20px;
   }
 
-h1 {
-    font-size: 270%;
+li {
+    float: left;
 }
 
-p {
-    padding: 30px;
-}
-
-.header {
-    padding: 60px;
-    text-align: left;
-    background: #131313;
+a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: medium;
 }
 
-.navbar {
-    padding-bottom: 50px;
+
+     
+a:hover {
+    color: #6461A0;
 }
+
+
+/* .navbar {
+    width: 40px;
+    height: 60px;
+    max-width: 1200px;
+    margin: 10 auto;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 
