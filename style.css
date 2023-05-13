@@ -1,5 +1,6 @@
 body {
-    background-color:#1c1d21;
+    /* background-color:#1c1d21; */
+    background-color: #fcfcfc;
     background-size: cover;
     background-position: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -9,34 +10,62 @@ body {
 .header {
     padding-left: 80px;
     padding-right: 80px;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: medium;
-}
-     
-a:hover {
-    color: #6461A0;
+    box-sizing: border-box;   
 }
 
 .logo {
-    width: 120px;
-    height: 130px;
+    width: 100px;
+    height: 120px;
     cursor: pointer;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
+.navbar {
+    background-color: #333;
+    border-radius: 200px;
+    overflow: hidden;
 }
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin-left: 40px;
+.navbar li {
+    float: left;
+    list-style-type: none;
 }
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    left: 40px;
+}
+
+.navbar a:hover {
+    background-color: #111;
+}
+
+.navbar .logo {
+    position: absolute; /* Add absolute positioning for the logo */
+    top: 50%; /* Position it vertically in the middle */
+    left: 40px; /* Adjust the left position as needed */
+    transform: translateY(-50%); /* Center it perfectly */
+}
+
+.navbar .logo img {
+    max-height: 100%; /* Ensure the logo image does not exceed the navbar height */
+}
+
+.blobanimation {
+    position: relative;
+    bottom: 450px;
+    left: 600px;
+}
+
+.mainpic {
+    position: relative;
+    bottom: 2000px;
+    left: 400px;
+}
+
 
 
