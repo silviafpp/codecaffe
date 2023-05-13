@@ -13,42 +13,52 @@ header {
     padding-right: 500px;
     box-sizing: border-box;
     z-index: 4; 
-    padding-top: 10px;
 }
 
 nav {
-    background-color: #333;
+    background-color: #ffffff;
+    border: 2px solid rgb(231, 226, 226);
     border-radius: 200px;
     overflow: hidden;
     z-index: 3;
-    flex: 1;
-    text-align: center;
-    transform: translateY(5%); 
+    transform: translateY(30%);
+    text-align: right;
 }
 
-a {
+header nav ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 15px;
-
+    color: #2e353a;
+    font-size: 17px;
+    transition: color 1s;
+    text-align: left;
 }
+
+a:hover {
+    color: #8767df;
+    transition: color 1s;
+}
+
 
 li {
     display: inline-block;
     list-style: none;
-    margin-left: 50px;
+    margin-left: 40px;
 }
+
+ul {
+    margin-right: 50px;
+    transform: translateY(10%);
+}
+
 
 .logo {
     float: left;
     position: absolute;
     top: 10%; /* Position it vertically in the middle */
-    left: 50px; /* Adjust the left position as needed */
-    transform: translateY(-25%); /* Center it perfectly */
-    width: 80px;
-    height: 90px;
-    background-image: url("./images/Code_Cafe-removebg-preview.png");
-    background-size: cover; 
+    left: 40px; /* Adjust the left position as needed */
+    transform: translateY(-0%); /* Center it perfectly */
+    color: #2e353a;
+    text-decoration: none;
 
 }
 
@@ -66,7 +76,26 @@ li {
     z-index: 2;
 }
 
+.text {
+    position: relative;
+    left: 50px;
+    margin-top: -2740px;
+    text-align: left;
+}
 
+h1 {
+    color: white;
+    width: 700px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    width: 740px;
+    margin-left: 50px;
+    font-size: 25px;
+}
 
 
 
