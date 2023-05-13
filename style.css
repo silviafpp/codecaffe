@@ -43,11 +43,11 @@ li {
     display: inline-block;
     list-style: none;
     margin-left: 40px;
+    transform: translateY(10%);
 }
 
 ul {
     margin-right: 50px;
-    transform: translateY(10%);
 }
 
 
