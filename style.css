@@ -10,7 +10,7 @@ body {
 .header {
     padding-left: 80px;
     padding-right: 80px;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
 }
 
 .logo {
@@ -23,6 +23,8 @@ body {
     background-color: #333;
     border-radius: 200px;
     overflow: hidden;
+    z-index: 3;
+    top: 25px;
 }
 
 .navbar li {
@@ -33,38 +35,35 @@ body {
 .navbar a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 13px;
-    left: 40px;
+    font-size: 14px;
+    text-align: left;
 }
 
-.navbar a:hover {
-    background-color: #111;
+.logo {
+    position: absolute; 
+    top: 50%; 
+    left: 40px; 
+    transform: translateY(-50%); 
 }
 
-.navbar .logo {
-    position: absolute; /* Add absolute positioning for the logo */
-    top: 50%; /* Position it vertically in the middle */
-    left: 40px; /* Adjust the left position as needed */
-    transform: translateY(-50%); /* Center it perfectly */
-}
-
-.navbar .logo img {
-    max-height: 100%; /* Ensure the logo image does not exceed the navbar height */
+.logo img {
+    max-height: 100%; 
 }
 
 .blobanimation {
     position: relative;
     bottom: 450px;
     left: 600px;
+    z-index: 1;
 }
 
 .mainpic {
     position: relative;
     bottom: 2000px;
     left: 400px;
+    z-index: 2;
 }
 
 
